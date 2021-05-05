@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "create-wasm-app": "file:www"
+  }
+}

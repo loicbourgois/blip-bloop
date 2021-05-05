@@ -1,0 +1,21 @@
+{
+  "name": "blip",
+  "cells": {
+    "heart": {
+      "type": heart,
+    },
+    "mouth": {
+      "type": mouth,
+    },
+    "eye-left": {
+      "type": eye,
+    },
+    "eye-right": {
+      "type": eye,
+    },
+  },
+  "connections": [
+    ["mouth", "eye-left", "heart"],
+    ["mouth", "heart", "eye-right"],
+  ]
+}
